@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+
+#sect1 {
+    background-image: url(./image/PLAN1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000503;
+    position: relative;
+
+}
+
+#sect2 {
+    background-image: url(./image/PLAN2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+#sect3 {
+    background-image: url(./image/PLAN3.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+#sect4 {
+    background-image: url(./image/PLAN4.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+#sect5 {
+    background-image: url(./image/PLAN5.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+#sect6 {
+    background-image: url(./image/PLAN6.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+#sect7 {
+    background-image: url(./image/PLAN7.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #0e0000;
+    position: relative;
+
+}
+
+#sect8 {
+    background-image: url(./image/PLAN8.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+#sect9 {
+    background-image: url(./image/PLAN9.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    position: relative;
+
+}
+
+#sect10 {
+    background-image: url(./image/PLAN10.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+#sect11 {
+    background-image: url(./image/PLAN11.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    position: relative;
+
+}
+#sect12 {
+    background-image: url(./image/PLAN12.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+#sect13 {
+    background-image: url(./image/PLAN13.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    position: relative;
+
+}

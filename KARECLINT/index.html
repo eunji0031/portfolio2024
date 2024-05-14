@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAARE KLINT</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+
+    <section id="sect1" class="flex">
+
+        <article id="art1">
+
+
+            <h1><img src="./image/logo.png" alt=""></h1>
+            <p><b>기본에 더하다, <br>
+                    카레클린트</b>
+            </p>
+
+        </article>
+
+        <article class="attch-bg bg1"></article>
+
+    </section>
+
+
+
+    <section id="sect2" class="attch-bg bg2">
+
+
+
+    </section>
+
+
+    <section id="sect3">
+
+
+        <article class="flex">
+
+
+            <ul class="col1">
+                <li> <img src="./image/sect3-item1.png" alt=""></li>
+
+
+            </ul>
+
+
+            <ul class="col2">
+                <li><img src="./image/sect3-item2.png" alt=""></li>
+                <li><img src="./image/sect3-item3.png" alt=""></li>
+
+
+            </ul>
+        </article>
+
+
+
+
+    </section>
+
+
+    <section id="sect4" class="flex">
+
+        <article class="attch-bg sticky bg3"></article>
+        <article class="desc">
+            <div class="summary">
+                <h3>KAARE KLINT AT HOME</h3>
+                <p>조화로운 재료의 이해와 연구를 통해 <br>
+                    그것들이 가장 아름답게 표현될 수 있도록 디자인하다.</p>
+                <br>
+                <a href="#">more</a>
+            </div>
+            <div class="product">
+                <ul>
+                    <li><img src="./image/sect4-item1.png" alt=""> </li>
+                    <div class="item1">
+                        <ul class="item1 flex">
+                            <li><img src="./image/sect4-item2.png" alt=""></li>
+                            <li><img src="./image/sect4-item3.png" alt=""></li>
+                            <li><img src="./image/sect4-item4.png" alt=""></li>
+                            <li><img src="./image/sect4-item5.png" alt=""></li>
+                        </ul>
+
+                    </div>
+                </ul>
+            </div>
+
+
+
+            <div class="product">
+                <ul>
+                    <li><img src="./image/sect4-item7.png" alt=""></li>
+
+                    <div class="item2">
+                        <ul class="item2 flex">
+                            <li><img src="./image/sect4-item6.png" alt=""></li>
+                            <li><img src="./image/sect4-item8.png" alt=""></li>
+                            <li><img src="./image/sect4-item9.png" alt=""></li>
+                            <li><img src="./image/sect4-item6.png" alt=""></li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+            </div>
+
+        </article>
+
+
+    </section>
+
+
+
+    <section id="sect5" class="flex">
+        <article class="attch-bg sticky bg4"></article>
+        <article class="desc">
+            <div class="summary">
+
+                <h3>JC901 SOFA</h3>
+                <p>각각의 구성품들이 서로를 받쳐주는 개념들로 이루어진 <br>
+                    구조적 안정감이 돋보이는 형태의 디자인</p>
+                <br>
+                <a href="#">more</a>
+            </div>
+
+
+
+            <div class="product">
+                <ul>
+                    <li><img src="./image/sect5-item1.png" alt="">
+                    </li>
+                    <li><img src="./image/sect5-item2.png" alt="">
+                        <p>단단한 나무들의 구조와 부드러운 가죽의 조합에 <br> 차가운 금속파이프 다리가 정직하게 대조됩니다.
+                        </p>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="product">
+                <ul>
+
+                    <li><img src="./image/sect5-item3.png" alt=""></li>
+                    <li><img src="./image/sect5-item4.png" alt="">
+                        <p>나무로 이루어진 본체를 연결해주는 컬러감이 강조된
+                            <br> 메탈다리의 정직함은 구조적인 아름다움을 보여줍니다.
+
+                        </p>
+                    </li>
+
+                </ul>
+            </div>
+        </article>
+
+    </section>
+
+
+
+    <section id="sect6">
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper flex">
+                <div class="swiper-slide"><img src="./image/slide1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./image/slide2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./image/slide3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./image/slide4.jpg" alt=""></div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+
+
+              
+                768: {
+                    slidesPerView: 1,
+                    spaceBetween: 40,
+                },
+
+                769:{slidesPerView: 4,
+                    spaceBetween: 40,}
+        
+            }
+            
+         } );
+    </script>
+
+
+
+</body>
+
+</html>

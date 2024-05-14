@@ -1,0 +1,168 @@
+@font-face {
+    font-family: pretendard;
+    src: url(./font/Pretendard-Medium.woff2);
+}
+
+
+
+body,
+html {
+    height: 100%;
+}
+
+
+.box1 {
+    background-image: url(./img/찐1.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 50px;
+    font-family: pretendard;
+    opacity: 1;
+
+}
+
+
+
+.box3 {
+    background-image: url(./img/ms.jpeg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 35px;
+    font-family: pretendard;
+    opacity: 0.9;
+    background-attachment: fixed;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+
+
+
+.box5 {
+    background-image: url(./img/찐2.jpg);
+    height: 100%;
+    margin-top: 100px;
+    opacity: 0.9;
+    background-attachment: fixed;
+}
+
+
+.text {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 100px;
+    font-family: pretendard;
+}
+
+.pp {
+    font-size: 40px;
+    text-align: center;
+    font-family: pretendard;
+    padding-top: 200px;
+}
+
+.qq {
+    font-size: 50px;
+    text-align: center;
+    font-family: pretendard;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100%;
+}
+
+p {
+    margin-top: 40px;
+    text-align: center;
+    font-family: pretendard;
+    font-size: 18px;
+    line-height : 30px;
+    
+}
+
+a.b1 {
+    padding: 2.5rem;
+    font-size: 25px;
+    color: white
+    display inline-block;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 100px;
+    background: white;
+    border: 2px solid black;
+    border-width: 5px;
+    margin-bottom: 200px;
+
+}
+
+
+.box6{margin-top: 200px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 200px;
+    font-family: pretendard;
+background-color: rgb(197, 25, 25);
+border-width: 10px;
+padding: 200px;
+font-size: 40px;
+font-family: pretendard;
+height: 10px;
+opacity: 0.8;}
+
+
+
+
+.box4{font-size: 20px;
+    text-align: center;
+    font-family: pretendard;
+margin-bottom: 200px;
+margin-top: 200px;
+color: black;}
+
+
+li h3{color: red;}
+
+
+.btn{text-align: center;
+padding-top: 100px;
+margin-top: 100px;
+height: 50%;
+}
+
+
+.b1:hover{color: rgb(255, 0, 0);
+    padding: 2.5rem;
+    font-size: 25px;
+    color: white
+    display inline-block;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 100px;
+    background: white;
+    border: 2px solid black;
+    border-width: 5px;
+    margin-bottom: 200px;}
+
+
+
+strong{color: red;
+font-size: 19px;
+}
+
+
+.box6:hover{background-color: black;
+color: rgb(243, 47, 47);
+font-size: 40px;
+opacity: 0.9}

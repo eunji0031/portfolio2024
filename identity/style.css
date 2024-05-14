@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+#sect1 {
+    background-image: url(./image/sym1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+#sect2 {
+    background-image: url(./image/sym2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    position: relative;
+
+}
+#sect3 {
+    background-image: url(./image/sym3.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+#sect4 {
+    background-image: url(./image/sym4.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    position: relative;
+
+}
+#sect5 {
+    background-image: url(./image/sym5.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+#sect6 {
+    background-image: url(./image/sym6.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+#sect7 {
+    background-image: url(./image/sym7.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+#sect8 {
+    background-image: url(./image/sym8.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}

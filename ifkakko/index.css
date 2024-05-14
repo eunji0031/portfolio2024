@@ -1,0 +1,182 @@
+@font-face {
+    font-family: kakao;
+    src: url(./font/KakaoBig-Bold.woff2);
+}
+
+@import url(/reset.css);
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.art1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+
+.flex2 {
+    padding: 25px 30px;
+}
+
+nav ul {
+    font-family: kakao;
+}
+
+.flex4 {
+    margin-right: 20px;
+    padding: 15px 20px;
+}
+
+.flex5 {
+    margin-right: 30px;
+    padding: 15px 20px;
+}
+
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+
+p {
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+
+#home {
+    width: 100%;
+    height: 100%;
+    color: rgb(239, 240, 247);
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    align-items: center;
+    margin-top: 100px;
+    font-family: kakao;
+}
+
+body {
+    background: rgb(28, 31, 33);
+}
+
+
+.b1 {
+    background-color: #19DEFF;
+    color: black;
+    border-radius: 50%;
+    justify-content: center;
+    margin: 0;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    align-items: center;
+    padding: 1.5rem;
+    font-size: 18px;
+    border-radius: 50px;
+    box-sizing: content-box;
+    min-width: 30px;
+    min-height: 28px;
+    width: 222px;
+    height: 66px;
+    box-shadow: unset;
+
+
+}
+
+
+.wrap {
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+
+
+.wrap2 {
+    margin-top: 300px;
+}
+
+
+
+.aa,
+.bb,
+.cc {
+    margin-left: 40px;
+    margin-right: 5px;
+}
+
+
+
+.flex {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+.b2 {
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    justify-content: center;
+    margin: 0;
+    font-weight: 500;
+    line-height: 1.75;
+    align-items: center;
+    padding: 1.5rem;
+    font-size: 20px;
+    border-radius: 50px;
+    box-sizing: content-box;
+    min-width: 30px;
+    min-height: 28px;
+    width: 222px;
+    height: 40px;
+    box-shadow: unset;
+}
+
+
+
+#house {
+    margin-top: 400px;
+    background-color: rgb(25, 210, 255);
+    font-family: kakao;
+    text-align: center;
+
+}
+
+
+#house2 {
+    background-color: rgb(255, 242, 62);
+    text-align: center;
+
+
+}
+
+
+
+footer {
+    margin-top: 200px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    color: #fff;
+}

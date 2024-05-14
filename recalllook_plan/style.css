@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+
+#sect1 {
+    background-image: url(./image/re1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000503;
+    position: relative;
+
+}
+
+
+#sect1 a {
+    color: #Fff;
+    font-size: 18px;
+    font-family: Pretendard;
+    border-radius: 50px;
+    position: absolute;
+    left: 31%;
+    top: 34%;
+    border: 3px solid #ffffff;
+    padding: 20px;
+
+
+}
+
+#sect1 a:hover {
+    background: #ffff;
+    color: #FEC200;
+}
+
+#sect2 {
+    background-image: url(./image/re2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000503;
+    position: relative;
+
+}
+
+#sect3 {
+    background-image: url(./image/re3.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+#sect4 {
+    background-image: url(./image/re4.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+#sect5 {
+    background-image: url(./image/re5.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000503;
+    position: relative;
+
+}
+
+#sect6 {
+    background-image: url(./image/re6.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000503;
+    position: relative;
+
+}
+
+#sect7 {
+    background-image: url(./image/re7.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+#sect8 {
+    background-image: url(./image/re8.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+#sect9 {
+    background-image: url(./image/re9.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #F1CC59;
+    position: relative;
+
+}
+
+#sect10 {
+    background-image: url(./image/re10.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    position: relative;
+
+}
+
+#sect11 {
+    background-image: url(./image/re11.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #F8F8F8;
+    position: relative;
+
+}
+
+#sect12 {
+    background-image: url(./image/re12.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    position: relative;
+
+}
+
+#sect13 {
+    background-image: url(./image/re13.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+#sect14 {
+    background-image: url(./image/re14.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    position: relative;
+
+}
+
+#sect15 {
+    background-image: url(./image/re15.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #F1CC59;
+    position: relative;
+
+}
+
+#sect16 {
+    background-image: url(./image/re16.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #F1CC59;
+    position: relative;
+
+}
+
+#sect17 {
+    background-image: url(./image/re17.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    position: relative;
+
+}
+
+#sect18 {
+    background-image: url(./image/re18.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    position: relative;
+
+}
+
+#sect19 {
+    background-image: url(./image/re19.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    position: relative;
+
+}
+
+#sect20 {
+    background-image: url(./image/re20.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+#sect21 {
+    background-image: url(./image/re21.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+#sect22 {
+    background-image: url(./image/re22.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+#sect23 {
+    background-image: url(./image/re23.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    position: relative;
+
+}
