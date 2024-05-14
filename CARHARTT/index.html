@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <style>
+        section {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+
+        }
+
+        .mySwiper1 {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+
+        }
+
+        .mySwiper1 .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .swiper-scrollbar-drag {
+            background: #FCB800;
+        }
+
+        /* --------------------------------------------------- */
+
+        section {
+            width: 1200px;
+            margin: auto;
+            height: 60vh;
+        }
+
+        .showroom .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .showroom .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .showroom .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        body {
+            background: #000;
+            color: #000;
+        }
+
+        .showroom .swiper {
+            width: 100%;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .showroom .swiper-slide {
+            background-size: cover;
+            background-position: center;
+        }
+
+        .mySwiper2 {
+            height: 80%;
+            width: 100%;
+        }
+
+        .showroom .mySwiper {
+            height: 20%;
+            box-sizing: border-box;
+            padding: 10px 0;
+        }
+
+        .showroom .mySwiper .swiper-slide {
+            width: 25%;
+            height: 100%;
+            opacity: 0.4;
+        }
+
+        .showroom .mySwiper .swiper-slide-thumb-active {
+            opacity: 1;
+        }
+
+        .showroom .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+
+
+</head>
+
+
+
+
+
+
+
+<body>
+
+
+    <h1><img src="./image/칼하트로고.png" alt=""></h1>
+
+    <section id="sect1">
+
+        <div class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./image/slide1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./image/slide2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./image/slide3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./image/slide4.jpg" alt=""></div>
+            </div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+
+
+        <div class="content1">
+
+            <div class="inner">
+                <span class="top"></span>
+                <span class="right"></span>
+                <span class="bottom"></span>
+                <span class="left"></span>
+                <div class="slide"><img src="./image/컨텐츠1.jpg" alt=""></div>
+            </div>
+            <ul class="btn flex">
+                <li><a href="#">News</a></li>
+                <li><a href="#">Showroom</a></li>
+            </ul>
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+    <section id="news">
+
+        <h2>Read Carhartt’s news____________!</h2>
+
+
+
+        <ul class="contents2 flex">
+            <li><a href="#"><img src="./image/컨텐츠2.png" alt=""></a></li>
+            <li><a href="#"><img src="./image/컨텐츠3.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./image/컨텐츠4.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./image/컨텐츠5.jpg" alt=""></a></li>
+
+        </ul>
+
+        <ul class="contents3 flex">
+            <li><a href="#"><img src="./image/1jenqfg3tip0w.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./image/qdqhluz1e3p0.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./image/r1flutfw63as.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./image/toohocswhnqe.jpg" alt=""></a></li>
+
+        </ul>
+    </section>
+
+
+
+    <section id="Showroom">
+
+        <h2>Showroom</h2>
+
+
+
+        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper3">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./image/쇼룸1.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/쇼룸2.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/쇼룸3.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/쇼룸3.jpg" />
+                </div>
+
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        </div>
+        <div thumbsSlider="" class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./image/쇼룸1.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/쇼룸2.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/쇼룸3.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/쇼룸4.jpg" />
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+
+        $('.top').animate({ 'width': '100%' }, 500, function () {
+            $('.right').animate({ 'height': '100%' }, 500, function () {
+                $('.bottom').animate({ 'width': '100%' }, 500, function () {
+                    $('.left').animate({ 'height': '100%' }, 500, function () {
+                        $('h1').fadeIn(500)
+
+                    })
+                })
+            })
+        })
+
+
+        // -------------------------------------------------------
+
+
+
+        var swiper = new Swiper(".mySwiper1", {
+            scrollbar: {
+                el: ".swiper-scrollbar",
+                hide: false,
+            },
+        });
+
+
+
+
+
+        var swiper = new Swiper(".mySwiper2", {
+            spaceBetween: 10,
+            slidesPerView: 4,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+
+        var swiper2 = new Swiper(".mySwiper3", {
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            thumbs: {
+                swiper: swiper,
+            },
+        });
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>

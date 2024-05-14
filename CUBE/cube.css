@@ -1,0 +1,216 @@
+li {
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+body {
+    background: #F3F2B1;
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+nav {
+
+    position: fixed;
+    left: 15%;
+    top: 28%;
+    transform: translateY(-50%);
+
+}
+
+
+
+
+nav ul li {
+
+    font-size: 40px;
+    background: #50D3A1;
+    border: 1px solid #555;
+    cursor: pointer;
+}
+
+
+nav ul li img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+nav ul li.on {
+    background: #ece904;
+    color: #fff;
+}
+
+
+.numbers {
+    position: fixed;
+    left: 20%;
+
+
+
+}
+
+
+.box {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    left: 35%;
+    top: 68%;
+    transform: translate(-50%, -50%);
+    perspective: 1000px;
+
+}
+
+#cube {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: .5s;
+
+}
+
+
+h1 {
+    position: fixed;
+    left: 2%;
+    bottom: 20%;
+}
+
+
+.tv {
+    position: fixed;
+    left: 50%;
+    top: 30%;
+}
+
+.tv-contents {
+    position: absolute;
+    left: 8.3%;
+    top: 22.5%;
+}
+
+
+
+.act {
+    position: fixed;
+    right: 2%;
+    bottom: 12%;
+}
+
+.face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background: #ece904;
+    border: 3px solid white;
+    box-shadow: 0px 0px 40px 5px #e4e9e7;
+
+
+}
+
+
+
+.face img {
+    width: 100%;
+    height: 100%;
+}
+
+.front {
+    background-image: url(./신짱구\ 1.png);
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(0deg) translateZ(200px);
+
+}
+
+.cube1 {
+    transform: translateZ(-200px) rotateY(0);
+}
+
+
+
+.back {
+    background-image: url(./유리\ 3.png);
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(180deg) translateZ(200px);
+}
+
+.cube3 {
+    transform: translateZ(-200px) rotateY(-180deg);
+}
+
+.right {
+    background-image: url(./훈이\ 3.png);
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(90deg) translateZ(200px);
+}
+
+.cube2 {
+    transform: translateZ(-200px) rotateY(-90deg);
+}
+
+.left {
+    background-image: url(./철수\ 3.png);
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(-90deg) translateZ(200px);
+}
+
+.cube4 {
+    transform: translateZ(-200px) rotateY(90deg);
+}
+
+
+.top {
+    background-image: url(./맹구\ 2.png);
+    background-size: cover;
+    background-position: center;
+    transform: rotateX(90deg) translateZ(200px);
+}
+
+.cube5 {
+    transform: translateZ(-200px) rotateX(-90deg);
+}
+
+
+.bottom {
+    background-image: url(./수지\ 2.png);
+    background-size: cover;
+    background-position: center;
+    transform: rotateX(-90deg) translateZ(200px);
+}
+
+.cube6 {
+    transform: translateZ(-200px) rotateX(90deg);
+}

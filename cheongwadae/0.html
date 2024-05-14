@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <style>
+        .box {
+            border: 10px solid #000;
+            margin-bottom: 50px;
+        }
+
+        .child {
+            border: 5px solid rgb(69, 189, 25);
+            padding: 20px;
+        }
+
+        .child2 {
+            font-size: 50px;
+        }
+
+        .inline .child {
+            display: inline;
+        }
+
+        .inline-block .child {
+            display: inline-block;
+        }
+
+        .float {
+            overflow: hidden;
+        }
+
+        .float .child {
+            float: left;
+        }
+
+        .box.flex {
+            display: flex;
+        }
+
+        .overflow {
+            width: 200;
+            height: 100px;
+            border: 5px solid#0f0;
+            overflow: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2>Block Element [width:100%/height:auto]</h2>
+    <div class="box block">
+        <div class="child child1">block1</div>
+        <div class="child child2">block2</div>
+        <div class="child child3">block3</div>
+    </div>
+    <h2>inline Element [width:글자값만큼/height:auto]</h2>
+    <div class="box inline">
+        <div class="child child1">inline1</div>
+        <div class="child child2">inline2</div>
+        <div class="child child3">inline3</div>
+    </div>
+    <h2>inline-block Element [width:글자값만큼/height:auto]</h2>
+    <div class="box inline-block">
+        <div class="child child1">inline-block1</div>
+        <div class="child child2">inline-block2</div>
+        <div class="child child3">inline-block3</div>
+    </div>
+
+    <h2>flex [width:글자값만큼/height:auto]</h2>
+    <div class="box flex">
+        <div class="child child1">flex1</div>
+        <div class="child child2">flex2</div>
+        <div class="child child3">flex3</div>
+    </div>
+
+
+    <h2>float [width:글자값만큼/height:auto]</h2>
+    <div class="box float">
+        <div class="child child1">float1</div>
+        <div class="child child2">float2</div>
+        <div class="child child3">float3</div>
+    </div>
+
+    <div class="child child1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quos asperiores quae! Nisi laudantium adipisci
+        autem, quam recusandae ex quia tenetur excepturi. Fuga non minima voluptatem? Quod quo aliquam unde!</div>
+    </div>
+
+</body>
+
+</html>
