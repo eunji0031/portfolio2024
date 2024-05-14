@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Nanum1;
+    src: url(/TOUN28/font/NanumBarunGothic.otf);
+}
+
+
+@font-face {
+    font-family: Nanum2;
+    src: url(/TOUN28/font/NanumBarunGothicUltraLight.otf);
+}
+
+
+
+
+
+
+
+#sect1 {
+    height: 100%;
+    color: #fff;
+    position: relative;
+
+
+}
+
+#sect1 h1 {
+    position: absolute;
+    left: 28%;
+    top: 70%;
+    font-size: 65px;
+    font-family: Nanum2;
+}
+
+#sect2 p {
+    font-size: 25px;
+    letter-spacing: -2px;
+    padding-top: 20px;
+}
+
+
+#sect2 h1 {
+    padding-top: 20px;
+    font-family: Nanum2;
+}
+
+
+
+
+#sect2 {
+    padding: 200px;
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    font-size: 30px;
+
+
+}
+
+
+
+#sect2 h1{text-decoration: underline;
+    text-decoration-thickness: 15px;
+    text-decoration-color: rgb(236, 225, 219);
+ }
