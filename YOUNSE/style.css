@@ -1,0 +1,366 @@
+@import url(/reset.css);
+
+@font-face {
+    font-family: pretendard;
+    src: url(./font/Pretendard-SemiBold.woff2);
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+h1 img {
+    width: 200px;
+}
+
+
+.section {
+    position: relative;
+
+}
+
+
+
+#sect1 {
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+
+#sect2 {
+    padding-top: 100px;
+
+    align-items: center;
+    background: url(./images/2366f92d71f049954f84e593bcc7200f.jpg);
+    background-attachment: fixed;
+
+
+
+}
+
+
+
+
+
+.sect2 {
+    align-items: center;
+    gap: 50px;
+}
+
+.collection {
+    text-align: center;
+    padding-top: 100px;
+
+
+}
+
+
+
+
+
+.intro {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 80%;
+    background: #ffffff;
+    border-radius: 80%;
+    font-size: 20px;
+
+}
+
+
+
+.col1,
+.col2 {
+    font-family: pretendard;
+}
+
+.col2 {
+    color: rgb(138, 138, 138);
+    padding-top: 100px;
+
+}
+
+
+
+
+
+
+
+.intro h1 {
+    padding-top: 10px;
+}
+
+.intro p {
+    font-size: 15px;
+    padding-top: 10px;
+    font-family: Pretendard;
+}
+
+#sect2 {
+    padding-top: 10px;
+}
+
+
+
+
+.account,
+.search,
+.bsk {
+    padding-right: 20px;
+}
+
+
+#sect4 img {
+    border-radius: 50%;
+}
+
+
+h2 {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+
+.fullbg {
+    padding: 100px;
+    font-family: Pretendard;
+    color: #000000;
+    background: url(./images/MAIN_1.jpg);
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    background-position: center 200px;
+    background-attachment: fixed;
+    opacity: 90%;
+}
+
+.fullbg p {
+    font-size: 40px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+figure {
+    text-align: center;
+
+}
+
+.menu {
+    justify-content: center;
+    gap: 50px;
+}
+
+#menu1,
+#menu2 {
+
+    font-family: pretendard;
+    color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    width: 180px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#menu1 {
+    background: #000;
+}
+
+#menu2 {
+    background: #000000;
+}
+
+
+#sect3 ul.col3 {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+
+#sect3 ul.col3 img {
+    width: 100%;
+}
+
+
+#sect4 h2 {
+
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+
+.summary {
+    font-family: Pretendard;
+}
+
+
+
+#sect4 {
+    margin-bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.slide-container {
+
+    width: 100%;
+    height: 600px;
+    margin-bottom: 150px;
+    overflow: hidden;
+
+}
+
+.slide-wrap {
+    display: flex;
+}
+
+.slide img {
+    vertical-align: top;
+}
+
+
+.slide {
+    position: relative;
+
+}
+
+
+.slide h1 {
+
+    font-size: 100px;
+    text-align: center;
+    padding-top: 250px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:620px) {
+    #sect4 img {
+        width: 50%;
+    }
+
+
+}
+
+@media screen and (min-width:621px) {
+
+    #sect4 ul {
+        justify-content: center;
+    }
+
+    #sect4 ul.list li {
+        display: flex;
+        gap: 3rem;
+        margin: 30px;
+    }
+
+
+    #sect4 ul.list li:nth-child(odd) figure {
+        order: 2;
+    }
+
+    #sect4 ul.list li:nth-child(odd) .summary {
+        text-align: right;
+
+    }
+
+
+    #sec4 figure {
+        width: 40%;
+
+    }
+
+
+    #section4 .summary {
+        width: 50%;
+
+    }
+
+
+
+
+}
+
+
+
+
+@media screen and (min-width:1080px) {
+    #section2 .col {
+        width: 50%;
+    }
+
+
+    #sec3 ul li {
+        width: 50%;
+
+    }
+
+    #sect4 ul {
+        display: flex;
+        flex-wrap: wrap;
+
+        margin: auto;
+
+    }
+
+    #sect4 ul li {
+        width: 42%;
+
+    }
+
+    #sect4 ul li {
+        align-items: center;
+    }
+
+
+}

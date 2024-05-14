@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>윤세 반응형</title>
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body>
+
+
+
+
+    <section id="sect1">
+        <div class="intro">
+            <h1><img src="./images/9dddec3c2410170c629f3968ac6ecd7d.png" alt=""></h1>
+
+            <p> <b><em>Yunsé</em></b><br>
+                YOUNSE 2023 AUTOMNE / HIVER COLLECTION IS 'HATCH SPACE' </p>
+        </div>
+
+        <img src="./images/MAIN_1.jpg" alt="">
+
+
+
+    </section>
+
+
+    <section id="sect1-2">
+
+        <div class="slide-container">
+            <slide class="slide-wrap">
+                <div class="slide">
+                    <img src="./images/MAIN_2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <h1>YUNSÉ</h1>
+                    <img src="./images/g.jpg" alt="">
+                </div>
+            </slide>
+        </div>
+
+    </section>
+
+
+
+    <section id="sect2">
+        <div class="sect2 flex">
+            <div class="col1">
+                <h2>YUNSÉ</h2><br>
+                <p>YUNSÉ는 런던과 서울을 기반으로 하는 컨템포러리 여성복 브랜드이다. <br>
+                    YUNSÉ는 우리에게 왜 표현하지 않는냐고 질문한다. <br>
+                    억눌린 그것은 감정이기도, 생각이기도, 표현 그 자체이기도 하다. <br>
+                    서로 다른 개념과 물질의 대조는 YUNSÉ의 미적공식이다.
+                </p>
+            </div>
+            <div class="col2">
+                <p>Yunsé is a contemporary womenswear brand
+                    based in London and Seoul.<br>
+                    Yunsé defines its aesthetics as 'cynical nouveau'.<br>
+                <p>By incorporating contrasting concepts, <br> cynicism towards
+                    an era and organic forms of Art Nouveau, <br>
+                    Yunsé throws the question of 'why not express more'
+                    in a rather dramatic way.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="sect3">
+
+        <div class="collection">
+            <h2>YUNSÉ COLLECTION</h2>
+            <ul class="col3 flex">
+                <li>
+                    <figure>
+                        <img src="./images/4ae483fb286f7b6806991c77ddd05f33.jpg" alt="">
+                    </figure>
+
+
+                </li>
+                <li>
+                    <figure>
+                        <img src="./images/2366f92d71f049954f84e593bcc7200f.jpg" alt="">
+                    </figure>
+                </li>
+
+
+            </ul>
+
+
+            <ul class="menu flex">
+                <li id="menu1"><a href="#">22AW 바로가기</a></li>
+                <li id="menu2"><a href="#">23SS 바로가기</a></li>
+            </ul>
+
+        </div>
+
+    </section>
+
+
+    <section id="sect4">
+
+        <h2>YUNSÉ OFF-LINE STORE</h2>
+
+
+        <ul class="list">
+            <li>
+
+                <figure><img src="./images/11.jpg" alt=""></figure>
+                <div class="summary">
+                    <h3>BEAKER HANNAM <br>
+                        비이커 한남</h3>
+                    <p>서울특별시 용산구 이태원로 241 (한남동) 비이커 한남 플래그쉽스토어 <br>
+                        Tel: 070-4118-5218</p>
+                </div>
+
+
+            </li>
+
+            <li>
+
+                <figure><img src="./images/22.jpg" alt=""></figure>
+                <div class="summary">
+                    <h3>BEAKER CHEONGDAM <br>
+                        비이커 청담</h3>
+                    <p>서울특별시 강남구 압구정로 408 (청담동) 비이커 청담 플래그쉽스토어 <br>
+                        Tel: 02-543-1270</p>
+                </div>
+
+
+
+            </li>
+
+            <li>
+
+                <figure><img src="./images/33.jpg" alt=""></figure>
+                <div class="summary">
+                    <h3>BEAKER SEONGSU <br>
+                        비이커 성수</h3>
+                    <p>서울특별시 성동구 연무장길 7-1 (성수동2가) 비이커 성수 플래그십스토어 <br>
+                        Tel: 02-464-4750</p>
+                </div>
+
+
+
+
+            </li>
+
+            <li>
+
+                <figure><img src="./images/44.jpg" alt=""></figure>
+                <div class="summary">
+                    <h3>Scène <br>
+                        쎈느</h3>
+                    <p>서울특별시 성동구 연무장5길 20 2F Scène
+                        Tel: 0507-1493-2127</p>
+                </div>
+
+
+
+
+
+
+            </li>
+        </ul>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <section class="fullbg">
+
+
+            <b>
+                <p>Welcome to Yunse!</p>
+            </b>
+
+
+
+
+
+        </section>
+    </footer>
+
+
+
+    <script src="../B1/script/jquery-3.7.1.min.js"></script>
+
+    <script>
+
+
+        let i = 0
+        $('.slide').eq(0).clone().appendTo('.slide-wrap')
+        function horSlide() {
+            i++
+
+
+            console.log(i)
+            $('.slide-wrap').animate({ 'marginLeft': -100 * i + '%' }, 1000)
+            if (i === 2) {
+                i = 0
+                $('.slide-wrap').animate({ 'marginLeft': 0 }, 0)
+            }
+
+
+
+        }
+
+
+        setInterval(horSlide, 2500)
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
