@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+    <div class="wrap">
+
+        <div class="slide-wrap">
+
+            <section class="sect3 flex">
+
+
+                <div class="visual">
+
+                    <figure class="sect1-bg sect1-bg2"><img src="./image/sect3 bg2.png" alt=""></figure>
+
+                </div>
+
+
+                <article>
+
+                    <div class="desc">
+                        <h2>메종 마르지엘라 - MM109 G10</h2>
+                        <h3>368,000원</h3>
+                        <p>젠틀몬스터와 메종 마르지엘라 두 번째 협업 컬렉션의
+                            MM109 G10 선글라스를 소개합니다.
+                            직선으로 뻗은 클래식한 스퀘어 쉐입과
+                            차분한 그레이 컬러가 어우러져 세련된 분위기를 완성합니다.</p>
+                    </div>
+                    <ul class="item-list flex">
+                        <li><a href="./image/04.png"><img src="./image/04.png" alt=""></a></li>
+                        <li><a href="./image/05.png"><img src="./image/05.png" alt=""></a></li>
+                        <li><a href="./image/06.png"><img src="./image/06.png" alt=""></a></li>
+                    </ul>
+
+                </article>
+
+            </section>
+            <section class="sect1 flex">
+
+                <div class="visual">
+                    <figure><img src="./image/sect1 bg0.png" alt=""></figure>
+                </div>
+
+                <article>
+
+                    <div class="desc">
+                        <h2>메종 마르지엘라 - MM104 Leather L01</h2>
+                        <h3>490,000원</h3>
+                        <p>젠틀몬스터와 메종 마르지엘라 두 번째 협업 컬렉션의
+                            MM104 LEATHER L01 선글라스를 소개합니다.
+                            볼륨감 있는 랩 어라운드 쉐입과 심플한 블랙 컬러의
+                            레더 소재가 어우러져 현대적인 미학을 담아냈습니다.</p>
+                    </div>
+
+
+                    <ul class="item-list flex">
+                        <li><a href="./image/11001_MM104_LEATHER_L01_2_2 2.png"><img
+                                    src="./image/11001_MM104_LEATHER_L01_2_2 2.png" alt=""></a></li>
+                        <li><a href="./image/11001_MM106_W2_2_2 1.png"><img src="./image/11001_MM106_W2_2_2 1.png"
+                                    alt=""></a>
+                        </li>
+                        <li><a href="./image/11001_MM109_G10_2_2 1.png"><img src="./image/11001_MM109_G10_2_2 1.png"
+                                    alt=""></a>
+                        </li>
+                    </ul>
+
+                </article>
+
+
+            </section>
+
+            <section class="sect2 flex">
+
+
+                <div class="visual">
+                    <figure><img src="./image/sect2 bg1.png" alt=""></figure>
+                </div>
+
+
+                <article>
+                    <div class="desc">
+
+                        <h2>메종 마르지엘라 - MM106 W2</h2>
+                        <h3>378,000원</h3>
+
+                        <p>젠틀몬스터와 메종 마르지엘라 두 번째 협업 컬렉션의
+                            MM106 W2 선글라스를 소개합니다.
+                            직선의 스케치를 더한 스퀘어 쉐입이 깔끔한 화이트 컬러와
+                            조화를 이루며 세련된 분위기를 자아냅니다.</p>
+                    </div>
+                    <ul class="item-list flex">
+                        <li><a href="./image/01.png"><img src="./image/01.png" alt=""></a></li>
+                        <li><a href="./image/02.png"><img src="./image/02.png" alt=""></a></li>
+                        <li><a href="./image/03.png"><img src="./image/03.png" alt=""></a></li>
+                    </ul>
+
+
+
+                </article>
+
+            </section>
+
+        </div>
+
+    </div>
+
+    <a href="#" class="arrow next"><img src="./image/211618_c_left_arrow_icon.png" alt=""></a>
+    <a href="#" class="arrow prev"><img src="./image/211621_c_right_arrow_icon.png" alt=""></a>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+
+        $('.item-list li').click(function (e) {
+            e.preventDefault()
+
+
+            $(this).siblings().removeClass('on')
+            $(this).addClass('on')
+
+            let href = $(this).find('a').attr('href')//get
+    
+            //dom 트래벌씽
+            $(this).parents('section').find('.visual figure img').attr('src', href)//set
+
+
+        })
+
+
+        $('a.prev').click(function () {
+
+            $('.slide-wrap').animate({ 'marginLeft': '-200%' },
+                function () {
+                    $('section').first().appendTo('.slide-wrap')
+                    $('.slide-wrap').css({ 'marginLeft': '-100%' })
+                }
+            )
+        })
+
+
+        $('a.next').click(function () {
+
+            $('.slide-wrap').animate({ 'marginLeft': '0' },
+                function () {
+                    $('section').last().prependTo('.slide-wrap')
+                    $('.slide-wrap').css({ 'marginLeft': '-100%' })
+                }
+            )
+        })
+    </script>
+
+
+
+</body>
+
+</html>
