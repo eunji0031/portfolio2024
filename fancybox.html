@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10x10</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css'>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+        }
+
+        .swiper-slide img {
+            display: block;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+ 
+   
+    <div class="rook-book">
+        <ul class="flex">
+            <li><a  id ="trigger" href="#">
+                <img src="./imgs/itemimage20240318091644.jpg" alt="">
+            </a></li>
+           
+            <li><a href="https://www.10x10.co.kr/"
+                data-fancybox
+                data-type="iframe"
+                data-preload="false"
+                data-width="100%"
+                data-height="100%">
+                <img src="./imgs/itemimage20240318091235.jpg" alt=""></a>
+            </li>
+
+
+            <li><a href="./imgs/itemimage20240318091707.jpg" data-fancybox="gallery"><img src="./imgs/itemimage20240318091707.jpg" alt=""></a></li>
+            <li><a href="./imgs/itemimage20240315173654.jpg" data-fancybox="gallery"><img src="./imgs/itemimage20240315173654.jpg" alt=""></a></li>
+            <li><a href="./imgs/itemimage20240315173713.jpg" data-fancybox="gallery"><img src="./imgs/itemimage20240315173713.jpg" alt=""></a></li>
+            <li><a href="./imgs/itemimage20240315173731.jpg" data-fancybox="gallery"><img src="./imgs/itemimage20240315173731.jpg" alt=""></a></li>
+            <li><a href="./imgs/itemimage20240315173810.jpg" data-fancybox="gallery"><img src="./imgs/itemimage20240315173810.jpg" alt=""></a></li>
+            <li><a href="./imgs/itemimage20240315173752.jpg" data-fancybox="gallery"><img src="./imgs/itemimage20240315173752.jpg" alt=""></a></li>
+            <li><a href="./imgs/itemimage20240315173828.jpg" data-fancybox="gallery"><img src="./imgs/itemimage20240315173828.jpg" alt=""></a></li>
+            <li><a href="./imgs/itemimage20240315173854.jpg" data-fancybox="gallery"><img src="./imgs/itemimage20240315173854.jpg" alt=""></a></li>
+ 
+        </ul>
+     
+    </div>
+    <!-------------------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js'></script>
+    <script>
+   
+        /////////////////////////////////////////////////
+        Fancybox.bind("[data-fancybox]", {
+            // Your custom options
+        });
+        ///////////////////////////////////////////
+        //동영상 불러오기,구글지도 불러오기
+        document.getElementById("trigger").addEventListener("click", () => {
+        Fancybox.show([
+          {
+            src: "https://www.google.com/maps/@51.5039653,-0.1246493,14.12z",
+            width: 800,
+            height: 600,
+          },
+        ]);
+      });  
+    </script>
+</body>
+
+</html>

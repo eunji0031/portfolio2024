@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .center-me {
+            position: absolute;
+            display: inline-block;
+            border: 1px solid #000;
+        }
+
+        .player {
+            cursor: pointer;
+            font-family: Helvetica;
+        }
+
+        .listen {
+            font-size: 12px;
+            margin-left: 4px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .equalizer {
+            position: relative;
+            height: 16px;
+            display: inline-block;
+            width: 33px;
+        }
+
+        .equalizer span {
+            display: block;
+            float: left;
+            width: 2px;
+            height: 2px;
+            background-color: #1d5ea8;
+            margin-right: 1px;
+            position: absolute;
+            bottom: 0;
+            transition: height 0.5s;
+        }
+
+        .equalizer span:nth-child(2) {
+            left: 3px;
+        }
+
+        .equalizer span:nth-child(3) {
+            left: 6px;
+        }
+
+        .equalizer span:nth-child(4) {
+            left: 9px;
+        }
+
+        .equalizer span:nth-child(5) {
+            left: 12px;
+        }
+
+        .equalizer span:nth-child(6) {
+            left: 15px;
+        }
+
+        .equalizer span:nth-child(7) {
+            left: 18px;
+        }
+
+        .equalizer span:nth-child(8) {
+            left: 21px;
+        }
+
+        .equalizer span:nth-child(9) {
+            left: 24px;
+        }
+
+        .equalizer span:nth-child(10) {
+            left: 27px;
+        }
+
+        .equalizer span:nth-child(11) {
+            left: 30px;
+        }
+
+        html {
+            background-color: #ffffff;
+        }
+
+        html,
+        body {
+            height: 100%;
+            position: relative;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="center-me player">
+        <div class="equalizer">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        var play = true;
+        player = setInterval(playerInterval, 400);
+
+        jQuery('.player').click(function () {
+            if (play) {
+                clearInterval(player);
+                jQuery('.equalizer span').css('height', 2);
+                play = false;
+            } else {
+                play = true;
+                player = setInterval(playerInterval, 400);
+            }
+        });
+
+        function playerInterval() {
+            jQuery('.equalizer span').each(function () {
+                jQuery(this).css('height', Math.floor((Math.random() * 16) + 2));
+            });
+        }
+    </script>
+</body>
+
+</html>

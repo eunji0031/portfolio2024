@@ -1,0 +1,152 @@
+section {
+    font-family: pretendard;
+    font-weight: lighter;
+    background: #000;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+#sect1 {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    color: #ffffff;
+}
+
+#sect1 .sect1-main {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#sect1 .sect1-main h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: pretendard2;
+    margin-top: 100px;
+
+
+}
+
+#sect1 .sect1-main span {
+    font-family: playball;
+}
+
+#sect1 .sect1-main p {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 28px;
+}
+
+
+
+#sect1 .sect1-sub {
+    margin-top: 150px;
+}
+
+
+.sect1-main p b {
+    color: #ECD10A;
+}
+
+
+/* ---------------- */
+
+
+.music {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.music-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.music .bar {
+
+    width: 12px;
+    border-radius: 10px;
+    background: white;
+    animation: loader 1.5s ease-in-out infinite;
+}
+
+@keyframes loader {
+
+    0%,
+    100% {
+        height: 2px;
+    }
+
+    50% {
+        height: 80px;
+    }
+}
+
+.music .bar:nth-child(1) {
+    background: rgb(252, 248, 57);
+
+    animation-delay: 1s;
+}
+
+.music .bar:nth-child(2) {
+    background: #FF1150;
+
+    animation-delay: 0.8s;
+}
+
+.music .bar:nth-child(3) {
+    background: rgb(239, 255, 20);
+
+    animation-delay: 0.6s;
+}
+
+.music .bar:nth-child(4) {
+    background: #FF1150;
+
+    animation-delay: 0.4s;
+}
+
+.music .bar:nth-child(5) {
+    background: gold;
+
+    animation-delay: 0.2s;
+}
+
+.music .bar:nth-child(6) {
+    background: gold;
+
+    animation-delay: 0.2s;
+}
+
+.music .bar:nth-child(7) {
+    background: #FF1150;
+
+    animation-delay: 0.4s;
+}
+
+.music .bar:nth-child(8) {
+    background: rgb(239, 255, 20);
+
+    animation-delay: 0.6s;
+}
+
+.music .bar:nth-child(9) {
+    background: #FF1150;
+
+    animation-delay: 0.8s;
+}
+
+.music .bar:nth-child(10) {
+    background: rgb(226, 211, 6);
+
+    animation-delay: 1s;
+}

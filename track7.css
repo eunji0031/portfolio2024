@@ -1,0 +1,369 @@
+#sect7 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+#sect7 .trackname{margin-left: 40px;
+text-align: end;}
+
+#art1 h1 {
+    font-size: 60px;
+    align-items: center;
+
+}
+
+#sect7 h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+#sect7 span {
+    font-family: playball;
+}
+
+
+
+
+
+
+#art1 p {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+.like {
+    position: absolute;
+    bottom: 20%;
+    right: 25%;
+    z-index: 99;
+}
+
+.like ul {
+    gap: 20px;
+}
+
+
+#CONTACT_ME {
+    position: absolute;
+    bottom: 0;
+    right: -80%;
+    padding: 20px;
+    border-radius: 200px;
+    background: #B61A45;
+    color: #fFF;
+    font-weight: bold;
+}
+
+#CONTACKME a:hover {
+    background: #B61A45;
+}
+
+
+#bttop {
+    position: absolute;
+    top: 33%;
+    left: 7%;
+}
+
+#btdown {
+    position: absolute;
+    top: 65%;
+    left: 6.7%;
+}
+
+
+
+
+
+.cc {
+    color: #ECD10A;
+    font-weight: bold;
+}
+
+
+
+.modal {
+    width: 300px;
+    height: 200px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    color: #f7f7f7;
+    transform: translate(-50%, -50%);
+    background-color: #C22B54;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 30px;
+    padding-top: 75px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+
+.modal p {
+    line-height: 25px;
+}
+
+/* 모달 활성화된 상태 */
+.modal.active {
+    display: block;
+}
+
+/* 닫기 버튼 스타일 */
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+.swiper.mySwiper {
+    width: 70%;
+    height: 50%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mySwiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border: 1px solid #cccbcb;
+    border-radius: 150px;
+}
+
+
+.skill {
+    margin-top: 50px;
+}
+
+.skill ul {
+    gap: 30px;
+    justify-content: center;
+}
+
+
+
+.coco2 {
+    margin-top: 100px;
+    line-height: 40px;
+}
+
+.coco3 {
+    margin-top: 100px;
+    line-height: 40px;
+}
+
+.coco4 {
+    margin-top: 100px;
+}
+
+
+.coco2 ul {
+    width: 90%;
+    padding: 0;
+}
+
+.coco3 ul {
+    width: 80%;
+    padding: 0;
+}
+
+
+.coco2 li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.coco3 li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.date,
+.career {
+    width: 50%;
+    /* 각 요소의 너비 조절 */
+}
+
+.date p,
+.career p {
+    margin: 0;
+    /* 문단의 마진 제거 */
+}
+
+
+.video li a img {
+    filter: brightness(60%);
+}
+
+.video li:hover a img {
+    filter: brightness(90%);
+}
+
+/* ------------- */
+
+
+.link-menu {
+    margin-top: 100px;
+}
+
+.link-menu li:hover img {
+    filter: brightness(100%);
+
+
+}
+
+
+.link-menu li img {
+    filter: brightness(60%);
+}
+
+
+#swiper-container-vertical {
+    background-image: url(./image/pink.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+
+
+.cococo1 {
+    text-align: left;
+    margin-left: 180px;
+    margin-top: 15px;
+    line-height: 40px;
+}
+
+
+#sect7 article h1 {
+    align-items: center;
+    font-size: 40px;
+}
+
+
+.intro {
+    margin-top: 100px;
+    line-height: 40px;
+}
+
+
+
+.coco1 {
+    margin-top: 20px;
+}
+
+
+.intro h1 {
+    color: #ECD10A;
+
+}
+
+
+.profile {
+    line-height: 40px;
+}
+
+#sect7 p b {
+    color: #ECD10A;
+}
+
+
+/* ------------------------------------ */
+
+
+#about {
+    max-width: 1800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.mySwiper1 {
+    justify-content: flex-start;
+    width: 850px;
+    height: 418px;
+    background: url(./image/pink.png);
+    background-size: cover;
+    margin: 0;
+}
+
+.mySwiper2 {
+    width: 850px;
+    height: 450px;
+
+}
+
+.mySwiper1 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.mySwiper1 .swiper-slide img {
+    display: block;
+    padding-right: 30px;
+    height: 90%;
+    object-fit: cover;
+}
+
+.mySwiper2 .swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.arrow {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.next {
+    top: 275px;
+    right: 705px;
+}
+
+.prev {
+    right: 705px;
+    top: 120px;
+}
+
+.mySwiper2 .swiper-slide {
+    height: 100%;
+    background: #000;
+    width: 100%;
+    color: #Fff;
+}

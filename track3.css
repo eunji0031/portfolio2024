@@ -1,0 +1,181 @@
+#sect3 {
+    background-image: url(./image/cdcdcd.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    font-family: pretendard;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+
+#sect3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+
+}
+
+.trackname {
+    color: #ECD10A;
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.work {
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+#sect3 h1 {
+    text-align: end;
+    font-size: 60px;
+    padding-top: 100px;
+    align-items: center;
+}
+
+#sect3 p {
+    text-align: end;
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#sect3 h1 span {
+    font-family: playball;
+}
+
+
+.cd {
+    text-align: center;
+}
+
+
+.arrow-left {
+    position: absolute;
+    top: 35%;
+    left: -50px;
+}
+
+.arrow-left img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.arrow-right img {
+    width: 50px;
+    height: 50px;
+}
+
+.arrow-right {
+    position: absolute;
+    top: 35%;
+    right: -30px;
+}
+
+.web-contents .swiper {
+
+
+
+    padding-top: 100px;
+}
+
+
+
+.web-contents ul li {
+    border: 1px solid #e0e0e0;
+    border-radius: 500px;
+}
+
+.web-contents figcaption {
+    margin-top: 50px;
+    text-align: center;
+    color: #333;
+    background: #ECD10A;
+    transition: .35s;
+    padding: 15px 10px;
+    display: none;
+    font-weight: bold;
+    border-radius: 99px;
+}
+
+.web-contents .swiper-wrapper .swiper-slide.on figcaption {
+    display: block;
+}
+
+.web-contents .swiper-wrapper .swiper-slide img {
+    transform: scale(.8);
+    transition: .35s;
+}
+
+.web-contents .swiper-wrapper .swiper-slide.on img {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sect3 .swiper-slide {
+    position: relative;
+}
+
+#sect3 .image-container {
+    position: relative;
+    display: inline-block;
+}
+
+#sect3 .hover-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+#sect3 .swiper-slide:hover .hover-image {
+    opacity: 1;
+}
+
+#sect3 .swiper-slide .hover-image {
+    display: none;
+}
+
+#sect3 .swiper-slide-active .hover-image {
+    display: block;
+}
+
+#sect3 .swiper-slide .original-image {
+    transition: filter 0.3s ease;
+}
+
+#sect3 .swiper-slide:hover .original-image {
+    filter: brightness(0.);
+    /* 기존 이미지를 50% 어둡게 조정 */
+}

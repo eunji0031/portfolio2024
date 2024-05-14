@@ -1,0 +1,306 @@
+#sect6 {
+    width: 100%;
+    height: 100vh;
+    font-family: pretendard;
+
+}
+
+#sect6 h1 {
+    font-size: 60px;
+    padding-top: 100px;
+
+}
+
+#sect6 p {
+
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#sect6 h1 span {
+    font-family: playball;
+}
+
+#sect6 ul {
+    margin-top: 50px;
+    gap: 20px;
+    justify-content: center;
+    color: #Fff;
+    text-align: center;
+}
+
+#sect6 figcaption {
+    margin-top: 20px;
+}
+
+#musicList {
+    display: flex;
+}
+
+#musicList li img {
+    width: 250px;
+    height: 250px;
+}
+
+.song {
+    margin-top: 100px;
+    justify-content: center;
+    gap: 100px;
+
+
+}
+
+
+
+
+
+.song img {
+    transition: transform 0.3s ease;
+}
+
+.vocal {
+    margin-left: 50px;
+}
+
+.vocal h1 {
+    align-items: center;
+}
+
+#umpa {
+    position: absolute;
+    left: 70px;
+    margin-top: 30px;
+    width: 130px;
+}
+
+.song.flex {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    position: relative;
+    /* 부모 요소를 상대적으로 설정합니다. */
+}
+
+.song figcaption {
+    text-align: center;
+    font-size: 20px;
+}
+
+.t1-container {
+    position: relative;
+}
+
+#t1 {
+    width: 280px;
+}
+
+#t1-1 {
+    position: absolute;
+    left: 33px;
+    top: 34px;
+}
+
+.rotate-animation {
+    transform: rotate(360deg);
+    /* 회전 애니메이션 설정 */
+    transition: transform 1s ease;
+    /* 애니메이션 효과 설정 */
+}
+
+
+#t1-1 {
+    transition: transform 2.0s ease;
+    /* 회전 애니메이션 효과 설정 */
+}
+
+#t1-1:hover {
+    transform: rotate(360deg);
+    /* 회전 애니메이션 설정 */
+}
+
+#t2-1 {
+    transition: transform 2.0s ease;
+    /* 회전 애니메이션 효과 설정 */
+}
+
+#t2-1:hover {
+    transform: rotate(360deg);
+    /* 회전 애니메이션 설정 */
+}
+
+#t3-1 {
+    transition: transform 2.0s ease;
+    /* 회전 애니메이션 효과 설정 */
+}
+
+#t3-1:hover {
+    transform: rotate(360deg);
+    /* 회전 애니메이션 설정 */
+}
+
+#t4-1 {
+    transition: transform 2.0s ease;
+    /* 회전 애니메이션 효과 설정 */
+}
+
+#t4-1:hover {
+    transform: rotate(360deg);
+    /* 회전 애니메이션 설정 */
+}
+
+#t5-1 {
+    transition: transform 2.0s ease;
+    /* 회전 애니메이션 효과 설정 */
+}
+
+#t5-1:hover {
+    transform: rotate(360deg);
+    /* 회전 애니메이션 설정 */
+}
+
+
+
+.t2-container {
+    position: relative;
+}
+
+#t2 {
+
+    width: 280px;
+}
+
+#t2-1 {
+    position: absolute;
+    left: 33px;
+    top: 34px;
+}
+
+.t3-container {
+    position: relative;
+}
+
+#t3 {
+
+    width: 280px;
+}
+
+#t3-1 {
+    position: absolute;
+    left: 33px;
+    top: 34px;
+}
+
+.t4-container {
+    position: relative;
+}
+
+#t4 {
+
+    width: 280px;
+}
+
+#t4-1 {
+    position: absolute;
+    left: 33px;
+    top: 34px;
+}
+
+.t5-container {
+    position: relative;
+}
+
+#t5 {
+
+    width: 280px;
+}
+
+#t5-1 {
+    position: absolute;
+    left: 33px;
+    top: 34px;
+}
+
+
+
+.center-me {
+    position: absolute;
+    display: inline-block;
+    border: 1px solid #000;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.player {
+    cursor: pointer;
+    font-family: Helvetica;
+}
+
+.listen {
+    font-size: 12px;
+    margin-left: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.equalizer {
+    position: relative;
+    height: 50px;
+    display: inline-block;
+    width: 32px;
+}
+
+.equalizer span {
+    display: block;
+    float: left;
+    width: 2px;
+    height: 2px;
+    background-color: #FF1150;
+    margin-right: 1px;
+    position: absolute;
+    bottom: 0;
+    transition: height 0.5s;
+}
+
+.equalizer span:nth-child(2) {
+    left: 3px;
+}
+
+.equalizer span:nth-child(3) {
+    left: 6px;
+}
+
+.equalizer span:nth-child(4) {
+    left: 9px;
+}
+
+.equalizer span:nth-child(5) {
+    left: 12px;
+}
+
+.equalizer span:nth-child(6) {
+    left: 15px;
+}
+
+.equalizer span:nth-child(7) {
+    left: 18px;
+}
+
+.equalizer span:nth-child(8) {
+    left: 21px;
+}
+
+.equalizer span:nth-child(9) {
+    left: 24px;
+}
+
+.equalizer span:nth-child(10) {
+    left: 27px;
+}
+
+.equalizer span:nth-child(11) {
+    left: 30px;
+}
+
+
